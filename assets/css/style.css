@@ -201,8 +201,8 @@ h6 {
   display: flex;
   align-items: center;
   color: #45505b;
-  padding: 10px 18px;
-  margin-bottom: 8px;
+  padding: 4px 18px;
+  margin-bottom: 2px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
@@ -277,7 +277,7 @@ h6 {
   width: 10rem;
   height: 10rem;
   border: 5px solid #0563bb;
-  margin:80% 0 5% 0;
+  margin:85% 0 5% 0;
   overflow: hidden;
 }
 
@@ -479,7 +479,6 @@ margin-top: 5%;
   background:black;
   border-color: black;
 }
-
 
 .hero-content .btn-portfolio {
   margin: 5% 0 0 5%;

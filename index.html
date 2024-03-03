@@ -20,19 +20,20 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- aos animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- bootstap file -->
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
  
 </head>
 
@@ -42,6 +43,9 @@
   <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center ">
+    <div class="nav-containter">
+    <img class="nav-img" src="assets/img/hero-img.png" alt="Nasir Hussain">
+  </div>
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
@@ -65,7 +69,7 @@
   <div class="container" id="home">
     <div class="row">
   
-      <div class="col-lg-6 ">
+      <div class="col-lg-7  col-sm-12">
   <div class="hero-content"> 
         <h1>Hi!, I'm <span class="name"> Nasir Hussain</span></h1>
          <!-- Element to contain animated typing -->
@@ -73,11 +77,11 @@
        
         <p>“We love what we do and we do what our clients love & work with great clients all over the world to create thoughtful and purposeful websites.”</p>
       <a href="#contact"> <button type="button" class="btn btn-lg btn-outline-light btn-contact   ">Contact Me <i class=" fa-regular fa-circle-down" ></i> </button></a> 
-      <a href="#portfolio"> <button type="button" class="btn btn-lg btn-portfolio">Portfolio <i class="fa-regular fa-circle-down " ></i> </button></a> 
+      <a href="#portfolio"> <button type="button" class="btn btn-lg btn-outline-light btn-portfolio">Portfolio <i class="fa-regular fa-circle-down " ></i> </button></a> 
    </div>
   </div>
   
-  <div class="col-lg-6" >
+  <div class="col-lg-5  col-sm-12" >
     <img class="hero-img" src="assets/img/hero-img.png" alt="Nasir-hussain">
   </div> 
     </div>
@@ -104,8 +108,8 @@
           
             <!-- <div class="row"> -->
               <div class="section-title">
-                <h2>About</h2>
-                <p>I am Nasir, a Software Engineer and Senior Web Developer with over 5 years of experience in designing and developing custom websites. With a strong background in web development, I have successfully delivered numerous custom websites across diverse industries. <br>
+                <h2 data-aos="fade-left">About</h2>
+                <p>I am Nasir Hussain, a Software Engineer and Senior Web Developer with over 5 years of experience in designing and developing custom websites. With a strong background in web development, I have successfully delivered numerous custom websites across diverse industries. <br>
                 I also specialize in working with various categories of projects on WordPress, including E-commerce, Business, Education, Health, and portfolio websites. Additionally, I offer services in Graphic Design and Photoshop editing.</p>
               </div>
               
@@ -118,20 +122,22 @@
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSE Software Engineering</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>nasirq206@gamil.com</span></li>
                   
+                  <li><i class="bi bi-chevron-right"></i> <strong>Other Website:</strong><a href="https://nasirqureshi-github.github.io/Nasir-portfolio/" target="_blank"> <span>https://nasir.portfolio</span> </a></li>
+
                 </ul>
               </div>
               
-              <a href="./assets/img/Nasir.cv.pdf" download="Nasir"> <button type="button" class="btn btn-lg btn-downlaod"  >Download CV <i class="fa fa-download " ></i> </button></a> 
+              <a href="./assets/img/Nasir.cv.pdf" download="Nasir"> <button type="button" class="btn btn-lg btn-downlaod" data-aos="fade-right"  >Download CV <i class="fa fa-download " ></i> </button></a> 
             </div>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
 
 
@@ -140,7 +146,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Skills</h2>
+          <h2 data-aos="zoom-in">Resume</h2>
+          <h2 data-aos="fade-right">Skills</h2>
           <p>As a web developer, I design and build websites that look great and easy to use. I'm dedicated to working five days a week and providing support every day of the week, ensuring your business receives a high level of assistance and availability. Here are some of my key capabilities:</p>
         </div>
 
@@ -237,7 +244,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Education</h2>
+          <h2 data-aos="zoom-in">Education</h2>
         </div>
 
         <div class="row">
@@ -246,14 +253,14 @@
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>BSE Software Engineering</h4>
-              <h5>2020 - 2024</h5>
+              <h5 data-aos="fade-right">2020 - 2024</h5>
               <p><em>Mirpur University Of Sceience And Technology (Must), Ajk ,Pakistan</em></p>
               <p>
                 I hold a Bachelor's degree in Software Engineering from Mirpur University of Science and Technology, which I successfully completed in 2024. </p>
             </div>
             <div class="resume-item">
               <h4>Fsc Pre Engineering</h4>
-              <h5>2017 - 2019</h5>
+              <h5 data-aos="fade-right">2017 - 2019</h5>
               <p><em>AIMS School &amp; College</em></p>
               <p>
                 I have successfully earned my Higher Secondary School Certificate (HSSC) in Pre-Engineering from AIMS School and College in 2019.</p>
@@ -264,7 +271,7 @@
             
             <div class="resume-item">
               <h4>Matric</h4>
-              <h5>2014-2016</h5>
+              <h5 data-aos="fade-right">2014-2016</h5>
               <p><em>Amis School And College</em></p>
               <p>
                 I have successfully completed my Secondary Education from AIMS School and College in 2016. </p>
@@ -272,7 +279,7 @@
 
             <div class="resume-item">
               <h4>primary Education</h4>
-              <h5>2002-2014</h5>
+              <h5 data-aos="fade-right">2002-2014</h5>
               <p><em>Mustafi Model School</em></p>
               <p>
                 I have successfully completed my primary Education from Mustafi model School. </p>
@@ -282,12 +289,60 @@
         </div>
 
       </div>
-    </section><!-- End Resume/Education Section -->
+    </section><!--Education Section -->
+
+
+ 
+    <!-- ======= Experience Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 data-aos="zoom-in">WORK EXPERIENCE</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="resume-item">
+              <h4>Front-end web development</h4>
+              <h5 data-aos="fade-right">2021 - current</h5>
+              <p>
+                Worked as a front-end web developer on a freelancer
+                platform (fiverr, upwork, freelancer). Worked with different country clients.
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Wordpress</h4>
+              <h5 data-aos="fade-right">2021 - current</h5>
+              <p>
+                Worked as a wordpress developer on a freelancer
+                 platform  (fiverr, upwork, freelancer). Worked with different country clients.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 ">
+            
+            <div class="resume-item">
+              <h4>Graphic Designing</h4>
+              <h5 data-aos="fade-right">2020-current</h5>
+              <p>
+                Worked as a Graphic Designer on a freelancer
+                platform  (fiverr, upwork, freelancer). Worked with different country clients. </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume/expreince Section -->
+
+
 
 
 
 
  <!-- ======= Services Section ======= -->
+
  <section id="services" class="services">
   <div class="container" data-aos="fade-up">
 
@@ -301,7 +356,7 @@
        
         <div class="icon-box iconbox-blue">
           <div class="icon">
-            <img class="services-img" src="assets/img/web-development.jpg" alt="services">
+            <img class="services-img" src="assets/img/web-development.png" alt="services">
           </div>
           <h4>Web development Services</h4>
           <p>Custom website development with all essential functionality.I specialize in managing diverse projects within the realm of website development, focusing on categories such as E-commerce, business ,Educations and protfolio websites. </p>
@@ -311,7 +366,7 @@
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
         <div class="icon-box iconbox-orange ">
           <div class="icon">
-            <img class="services-img" src="assets/img/wordpress.jpg" alt="services">
+            <img class="services-img" src="assets/img/wordpress.png" alt="services">
           </div>
           <h4>Wordpress website/cms</h4>
           <p>I also specialize in working with various categories of projects on WordPress, including E-commerce and business websites. </p>
@@ -319,15 +374,19 @@
       </div>
 
 
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-        <div class="icon-box iconbox-pink">
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box iconbox-orange ">
           <div class="icon">
-            <img class="services-img" src="assets/img/Graphic design.jpg" alt="services">
+            <img class="services-img" src="assets/img/react-logo.png" alt="services">
           </div>
-          <h4>Graphic Designing Services</h4>
-          <p>Graphic Designing Services inludes Logo Design, social media post design, website banner design, Google Ads banner,certificate design and many more.</p>
+          <h4>React Js</h4>
+          <p>
+            With expertise in React.js, I bring extensive experience in developing dynamic and interactive user interfaces. Proficient in leveraging React's component-based architecture to build scalable web applications. Skilled in state management with Redux and context API for efficient data flow.  </p>
         </div>
       </div>
+
+
+    
 
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
         <div class="icon-box iconbox-yellow">
@@ -346,10 +405,33 @@
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
         <div class="icon-box iconbox-red">
           <div class="icon">
-            <img class="services-logo " src="assets/img/pdf_logo.png" alt="services">
+            <img class="services-logo " src="assets/img/psd-logo.png" alt="services">
           </div>
           <h4> Convert psd To HTML</h4>
           <p>Convert PSD To HTML ,css responsive bootstrap website</p>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box iconbox-red">
+          <div class="icon">
+            <img class="services-logo " src="assets/img/pdf_logo.png" alt="services">
+          </div>
+          <h4> Convert pdf To HTML</h4>
+          <p>Convert Pdf To HTML ,css responsive bootstrap website</p>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box iconbox-red">
+          <div class="icon">
+            <img class="services-img" src="assets/img/Graphic design.png" alt="services">
+          </div>
+          <h4> Graphic Designing Services</h4>
+          <p>Graphic Designing Services inludes Logo Design, social media post design, website banner design, Google Ads banner,certificate design and many more.</p>
         </div>
       </div>
 
@@ -394,26 +476,26 @@
         <div class="row portfolio-container">
 
  <!-- portofolio Item-1 -->
-          <div class="col-lg-4 col-md-6 portfolio-item ">
+          <div class="col-lg-6 col-md-6 portfolio-item ">
             <a href="https://nasirqureshi-github.github.io/NTSTS.com/" target="_blank">
             <div class="portfolio-wrap" data-aos="fade-up">
               <img src="assets/img/portfolio/Ntsts-website.png" class="img-fluid" alt="wwebsite-img">
               <div class="portfolio-info">
                 <h4>Live Preview</h4>
-              <button class="btn btn-danger vist-btn">Visit Now</button>
+              <button class="btn btn-primary vist-btn">Visit Now</button>
               </div>
             </div>
           </a>
           </div>
  <!-- End of portofolio Item-1 -->
           
-          <div class="col-lg-4 col-md-6 portfolio-item ">
+          <div class="col-lg-6  col-md-6 portfolio-item ">
             <a href="https://nasirqureshi-github.github.io/Appbies-web/" target="_blank">
             <div class="portfolio-wrap" data-aos="fade-up">
               <img src="assets/img/portfolio/appbies-website.png" class="img-fluid" alt="wwebsite-img">
               <div class="portfolio-info">
                 <h4>Live Preview</h4>
-              <button class="btn btn-danger vist-btn">Visit Now</button>
+              <button class="btn btn-primary vist-btn">Visit Now</button>
               </div>
             </div>
           </a>
@@ -424,13 +506,13 @@
          
 
         
-          <div class="col-lg-4 col-md-6 portfolio-item ">
+          <div class="col-lg-6  col-md-6 portfolio-item ">
             <a href="https://nasirqureshi-github.github.io/dogyweb/" target="_blank">
             <div class="portfolio-wrap" data-aos="fade-up">
               <img src="assets/img/portfolio/dogyweb.png" class="img-fluid" alt="wwebsite-img">
               <div class="portfolio-info">
                 <h4>Live Preview</h4>
-              <button class="btn btn-danger vist-btn">Visit Now</button>
+              <button class="btn btn-primary vist-btn">Visit Now</button>
               </div>
             </div>
           </a>
@@ -438,26 +520,26 @@
 
 
 
-          <div class="col-lg-4 col-md-6 portfolio-item ">
+          <div class="col-lg-6  col-md-6 portfolio-item ">
             <a href="https://nasirqureshi-github.github.io/tin-dog/" target="_blank">
             <div class="portfolio-wrap" data-aos="fade-up">
               <img src="assets/img/portfolio/Tin-dog.png" class="img-fluid" alt="wwebsite-img">
               <div class="portfolio-info">
                 <h4>Live Preview</h4>
-              <button class="btn btn-danger vist-btn">Visit Now</button>
+              <button class="btn btn-primary vist-btn">Visit Now</button>
               </div>
             </div>
           </a>
           </div>
 
 
-          <div class="col-lg-4 col-md-6 portfolio-item ">
+          <div class="col-lg-6  col-md-6 portfolio-item ">
             <a href="https://nasirqureshi-github.github.io/cabhub/" target="_blank">
             <div class="portfolio-wrap" data-aos="fade-up">
               <img src="assets/img/portfolio/cahub.png" class="img-fluid" alt="wwebsite-img">
               <div class="portfolio-info">
                 <h4>Live Preview</h4>
-              <button class="btn btn-danger vist-btn">Visit Now</button>
+              <button class="btn btn-primary vist-btn">Visit Now</button>
               </div>
             </div>
           </a>
@@ -496,13 +578,13 @@
               <div class="row portfolio-container">
       
                  <!-- portofolio Item-1 -->
-                <div class="col-lg-4 col-md-6 portfolio-item " >
+                <div class="col-lg-6 col-md-6 portfolio-item " >
                   <a href="https://marahiholdings.com/" target="_blank">
                   <div class="portfolio-wrap" >
                     <img src="assets/img/portfolio/marahiholding.png" class="img-fluid" alt="wwebsite-img">
                     <div class="portfolio-info">
                       <h4>Live Preview</h4>
-                    <button class="btn btn-danger vist-btn">Visit Now</button>
+                    <button class="btn btn-primary vist-btn">Visit Now</button>
                     </div>
                   </div>
                 </a>
@@ -510,26 +592,26 @@
        <!-- End of portofolio Item-1 -->
                
       
-                <div class="col-lg-4 col-md-6 portfolio-item ">
+                <div class="col-lg-6 col-md-6 portfolio-item ">
                   <a href="https://sharqseas.com/" target="_blank">
                   <div class="portfolio-wrap" >
                     <img src="assets/img/portfolio/sharqsea.png" class="img-fluid" alt="wwebsite-img">
                     <div class="portfolio-info">
                       <h4>Live Preview</h4>
-                    <button class="btn btn-danger vist-btn">Visit Now</button>
+                    <button class="btn btn-primary vist-btn">Visit Now</button>
                     </div>
                   </div>
                 </a>
                 </div>
       
               
-                <div class="col-lg-4 col-md-6 portfolio-item ">
+                <div class="col-lg-6 col-md-6 portfolio-item ">
                   <a href="https://bydating.net/en/homepage-2/" target="_blank">
                   <div class="portfolio-wrap" >
                     <img src="assets/img/portfolio/dating-website.png" class="img-fluid" alt="wwebsite-img">
                     <div class="portfolio-info">
                       <h4>Live Preview</h4>
-                    <button class="btn btn-danger vist-btn">Visit Now</button>
+                    <button class="btn btn-primary vist-btn">Visit Now</button>
                     </div>
                   </div>
                 </a>
@@ -537,13 +619,13 @@
       
       
       
-                <div class="col-lg-4 col-md-6 portfolio-item ">
+                <div class="col-lg-6 col-md-6 portfolio-item ">
                   <a href="https://mehthab.com/" target="_blank">
                   <div class="portfolio-wrap" >
                     <img src="assets/img/portfolio/Methab.png" class="img-fluid" alt="wwebsite-img">
                     <div class="portfolio-info">
                       <h4>Live Preview</h4>
-                    <button class="btn btn-danger vist-btn">Visit Now</button>
+                    <button class="btn btn-primary vist-btn">Visit Now</button>
                     </div>
                   </div>
                 </a>
@@ -579,27 +661,39 @@
             <div class="row portfolio-container" >
     
                <!-- portofolio Item-1 -->
-              <div class="col-lg-4 col-md-6 portfolio-item " >
+              <div class="col-lg-6 col-md-6 portfolio-item " >
                 <a href="https://nasirqureshi-github.github.io/Dice-game/" target="_blank">
                 <div class="portfolio-wrap"  >
-                  <img src="assets/img/portfolio/dice-game.png" class="img-fluid" alt="wwebsite-img" >
+                  <img src="assets/img/portfolio/dice-game.png" class="img-fluid" alt="website-img" >
                   <div class="portfolio-info">
                     <h4>Live Preview</h4>
-                  <button class="btn btn-danger vist-btn">Visit Now</button>
+                  <button class="btn btn-primary vist-btn">Visit Now</button>
                   </div>
                 </div>
               </a>
               </div>
      <!-- End of portofolio Item-1 -->
              
-    
-              <div class="col-lg-4 col-md-6 portfolio-item ">
+     <div class="col-lg-6 col-md-6 portfolio-item ">
+      <a href="https://nasirqureshi-github.github.io/text-to-speech-converter/" target="_blank">
+      <div class="portfolio-wrap" >
+        <img src="assets/img/portfolio/speech-converter.png" class="img-fluid" alt="wwebsite-img">
+        <div class="portfolio-info">
+          <h4>Live Preview</h4>
+        <button class="btn btn-primary vist-btn">Visit Now</button>
+        </div>
+      </div>
+    </a>
+    </div>
+
+
+              <div class="col-lg-6 col-md-6 portfolio-item ">
                 <a href="https://nasirqureshi-github.github.io/Drum-kit-game/" target="_blank">
                 <div class="portfolio-wrap" >
                   <img src="assets/img/portfolio/drum-kit.png" class="img-fluid" alt="wwebsite-img">
                   <div class="portfolio-info">
                     <h4>Live Preview</h4>
-                  <button class="btn btn-danger vist-btn">Visit Now</button>
+                  <button class="btn btn-primary vist-btn">Visit Now</button>
                   </div>
                 </div>
               </a>
@@ -801,10 +895,7 @@
     <!-- End Contact Section -->
 
   </main><!-- End #main -->
-<script>
-</script>
- 
-  
+
 
 
   <!-- ======= Footer ======= -->
@@ -827,17 +918,32 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <!-- <script src="assets/vendor/aos/aos.js"></script> -->
+  
+  
+
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+  <!-- aos animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:"100",
+      duration:"1000",
+      once: false,
+
+    });
+  </script>
 
   <!-- bootstarp js file -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
 
 
   <!-- Setup and start animation! javascrip type library -->

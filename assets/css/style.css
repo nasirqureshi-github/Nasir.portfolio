@@ -340,7 +340,8 @@ header .nav-img{
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 20px;
+  /* padding: 60px 20px; */
+  padding: 60px 25px;
   overflow: hidden;
 }
 
